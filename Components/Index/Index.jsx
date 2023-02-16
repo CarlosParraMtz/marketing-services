@@ -149,9 +149,9 @@ export default function Index() {
 
                     </div>
                     <div className="about-right">
-{
-    //* Aquí van las imágenes
-}
+                        {
+                            //* Aquí van las imágenes
+                        }
                     </div>
                 </div>
             </section>
