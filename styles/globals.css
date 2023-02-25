@@ -1,9 +1,15 @@
 /* 
 Paleta de color:
-
-#2a2a2a
-#4fa8fb
+Púrpura oscuro (#5A2A7F)
+Azul oscuro (#1F305E)
+Azul grisáceo (#6C8CA0)
+Gris oscuro (#2C2E3E)
+Blanco puro (#FFFFFF)
+Púrpura medio (#8B3A62)
  */
+
+
+/* * Layout */
 
 * {
   margin: 0;
@@ -13,8 +19,8 @@ Paleta de color:
 }
 
 body {
-  background: #1a1a2b;
-  color: #ebebeb;
+  background: #2C2E3E;
+  color: #FFFFFF;
 }
 
 a {
@@ -24,14 +30,13 @@ a {
 }
 
 h1 {
-  font-family: Oswald;
-  font-size: 5em;
+  font-size: 6em;
   text-align: center;
 }
 
 h2 {
   font-size: 3em;
-  color: #778;
+  color: #5A2A7F;
   text-align: center;
 }
 
@@ -40,28 +45,74 @@ a:hover {
   transition: all 0.2s;
 }
 
+/* * fsdfsdf */
+
+
+section { 
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+.centrado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 
-section {
+
+#portada {
   min-height: 100vh;
   padding: 200px;
-  /* border: solid 1px red;  */
 }
+
+
+
+
 
 .container {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
-  /* border: solid 1px blue; */
+/*    border: solid 1px blue;*/
+
+
+}
+
+
+
+.barra {
+  background: #5A2A7F;
+  width:100%;
+  padding: 100px;
+
+}
+
+
+
+
+.motion-title-container {
+  background:#ffffff00;
+  width: 100%;
+  max-width: 530px;
+  padding: 20px;
+  border-radius: 10px;
+  border: solid 4px #5A2A7F00;
+
 }
 
 .btn-container {
   margin-top: 20px;
+  width: 100%;
+  max-width: 530px;
+  display: flex;
+  justify-content: space-between;
 }
 
 button {
-  margin: 5px;
+  
   padding: 15px 20px;
   width: 210px;
   border: none;
@@ -70,8 +121,9 @@ button {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1em;
-  background: #e4e4e4;
+  background: #fff;
   transition: all 100ms;
+  color:#5A2A7F;
 }
 
 button:hover {
@@ -79,22 +131,28 @@ button:hover {
 }
 
 .btn-blue {
-  background: #4fa8fb;
+  background: #5A2A7F;
+  color: #fff;
 }
 
 .btn-blue:hover {
-  background: #5fb8ff;
+  background: #fff;
+  color: #5A2A7F;
 }
 
 
 
 .subtitle {
   text-align: center;
+  font-size: 3em;
 }
 
 
 .about-container {
   display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about-container>div {
@@ -110,7 +168,7 @@ button:hover {
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
-  color: #4fa8fb;
+  color: #8B3A62;
   font-size: 1.5em;
 }
 
@@ -121,5 +179,29 @@ button:hover {
 
 .data-container p {
   font-size: 1.5em;
-  color: #778;
+  color: #6C8CA0;
 }
+
+.img-container {
+  margin-top: 100px;
+  position: sticky;
+  
+}
+
+.about-right {
+  padding: 20px;
+  margin-top: 150px;
+}
+
+.img1 {
+  top: 190px;
+}
+
+.img2 {
+  top: 200px;
+}
+
+.img3 {
+  top: 210px;
+}
+

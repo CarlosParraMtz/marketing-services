@@ -40,38 +40,44 @@ export default function Index() {
     return (
         <>
             <section id='portada' >
-                <div className="container" >
+                <div className="container centrado" >
+
+                    <img src="/logo.svg" alt="Logo" width="200px" />
+
                     <motion.h1
                         initial="initialState" animate="animateState" exit={{ opacity: 0 }}
                         variants={variantesName} transition={{ delay: 0, duration: 1 }} >
-                        <b>WebMinds</b>
+                        <b>momentum</b>
                     </motion.h1>
 
-                    {
-                        title === "dev" &&
-                        <motion.h2
-                            initial="initialState" animate="animateState" exit={{ opacity: 0 }}
-                            variants={variantesTitle} transition={{ delay: 0, duration: 0.5 }} >
-                            Desarrollo web
-                        </motion.h2>
-                    }
-                    {
-                        title === "des" &&
-                        <motion.h2
-                            initial="initialState" animate="animateState" exit={{ opacity: 0 }}
-                            variants={variantesTitle} transition={{ delay: 0, duration: 0.5 }} >
-                            Marketing digital
-                        </motion.h2>
-                    }
-                    {
-                        title === "ux" &&
-                        <motion.h2
-                            initial="initialState" animate="animateState" exit={{ opacity: 0 }}
-                            variants={variantesTitle} transition={{ delay: 0, duration: 0.5 }} >
-                            Diseño UX / UI
-                        </motion.h2>
-                    }
+                    <div className="motion-title-container">
 
+                        {
+                            title === "dev" &&
+                            <motion.h2
+                                initial="initialState" animate="animateState" exit={{ opacity: 0 }}
+                                variants={variantesTitle} transition={{ delay: 0, duration: 0.5 }} >
+                                Desarrollo web
+                            </motion.h2>
+                        }
+                        {
+                            title === "des" &&
+                            <motion.h2
+                                initial="initialState" animate="animateState" exit={{ opacity: 0 }}
+                                variants={variantesTitle} transition={{ delay: 0, duration: 0.5 }} >
+                                Marketing digital
+                            </motion.h2>
+                        }
+                        {
+                            title === "ux" &&
+                            <motion.h2
+                                initial="initialState" animate="animateState" exit={{ opacity: 0 }}
+                                variants={variantesTitle} transition={{ delay: 0, duration: 0.5 }} >
+                                Diseño UX / UI
+                            </motion.h2>
+                        }
+
+                    </div>
 
                     <motion.div className="btn-container"
                         initial="initialState" animate="animateState" exit={{ opacity: 0 }}
@@ -94,9 +100,6 @@ export default function Index() {
 
 
             <section id="about" >
-
-
-                <h3 className="subtitle">+10 AÑOS DE EXPERIENCIA EN DISEÑO</h3>
                 <div className="about-container">
 
                     <div className="about-left">
@@ -149,9 +152,24 @@ export default function Index() {
 
                     </div>
                     <div className="about-right">
+
 {
     //* Aquí van las imágenes
 }
+
+                        <div className="img-container img1">
+                            <img src="/cover1.svg" alt="1" />
+                        </div>
+
+                        <div className="img-container img2">
+                            <img src="/cover2.svg" alt="2" />
+                        </div>
+
+                        <div className="img-container img3">
+                            <img src="/cover3.svg" alt="3" />
+                        </div>
+
+
                     </div>
                 </div>
             </section>
