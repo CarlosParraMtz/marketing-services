@@ -189,6 +189,7 @@ button:hover {
 }
 
 .data-container p {
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.5em;
   color: #6C8CA0;
 }
@@ -247,15 +248,12 @@ button:hover {
   width: 30%;
   max-width: 350px;
   height: 100%;
-  border-radius: 10px;
-
 }
 
 .s-img-container {
   width: 100%;
   height: 500px;
   position: relative;
-  border-radius: 10px;
 }
 
 .s-img-container::before {
@@ -269,7 +267,6 @@ button:hover {
   right: 0;
   background-color: #5A2A7F30;
   transition: all 500ms;
-  border-radius: 10px;
 }
 
 .s-img-container:hover::before {
@@ -280,7 +277,6 @@ button:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
 }
 
 .s-img-container h4 {
@@ -303,10 +299,8 @@ button:hover {
 
 .s-img-container:hover h4 {
   top: 0;
-  backdrop-filter: blur(0);
   background-color: #FFFFFF;
   color: #5A2A7F;
-  border-radius: 10px 10px 0 0;
 }
 
 .s-services-list {
@@ -317,7 +311,6 @@ button:hover {
   right: 0;
   bottom: 0;
   top: 0;
-  border-radius: 10px;
   opacity: 0;
   padding: 15px;
   transition: all 500ms;

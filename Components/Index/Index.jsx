@@ -41,7 +41,7 @@ export default function Index() {
     const submitForm = (e) => {
         e.preventDefault();
     }
-    
+
 
     return (
         <>
@@ -91,13 +91,13 @@ export default function Index() {
                     >
                         <a href='#contact' >
                             <button className="btn-blue" >
-                                Iniciar proyecto 🡽
+                                🏁 Iniciar proyecto
                             </button>
                         </a>
 
-                        <a href="#about" >
+                        <a href="#about" className='mt-2' >
                             <button>
-                                Saber más... 🡻
+                                Saber más... 👇
                             </button>
                         </a>
                     </motion.div>
@@ -157,7 +157,7 @@ export default function Index() {
                             <br />
                             <a href="#contact">
                                 <button className="btn-blue" >
-                                    Iniciar proyecto 🡽
+                                    🏁 Iniciar proyecto
                                 </button>
                             </a>
                         </div>
@@ -284,7 +284,7 @@ export default function Index() {
                         <br />
 
                         <button type='submit' >
-                            Iniciar proyecto 🡽
+                            Iniciar proyecto 🏁
                         </button>
                     </form>
                 </div>
