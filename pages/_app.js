@@ -1,4 +1,5 @@
 import '@/styles/globals.css'
+import '@/styles/movil.css'
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { AnimatePresence, motion } from "framer-motion"

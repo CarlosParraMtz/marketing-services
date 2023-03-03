@@ -1,0 +1,127 @@
+@media (max-width:480px) {
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding: 20px;
+        
+    }
+
+    .btn-container a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-container a button {
+        width: 100%;
+    }
+
+    .mt-2 {
+        margin-top: 20px;
+    }
+
+    .about-container>div {
+        width: 100%;
+    }
+
+    .about-left {
+        padding: 15px;
+    }
+
+    .about-right {
+        display: none;
+    }
+
+    .data-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .data-container span {
+        font-size: 1em;
+    }
+
+    .data-container h3 {
+        font-size: 1.8em;
+    }
+
+    .data-container p {
+        font-size: 1.2em;
+    }
+
+    .data-container a, .data-container button {
+        width: 100%;
+        align-self: center;
+    }
+
+
+
+
+
+    #services {
+        padding-bottom: 10px;
+    }
+
+    
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+        background: #5a2a7f;
+        padding: 0;
+    }
+
+    .services-item {
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .s-img-container {
+        height: auto;
+    }
+
+    .s-img-container img {
+        height: 250px;
+    }
+
+    .s-img-container::before {
+        background:none;
+    }
+
+    .s-services-list {
+        position: static;
+        opacity: 1;
+        margin-bottom: 30px;
+        background: none;
+    }
+
+    .s-img-container h4 {
+        position: absolute;
+        top: 0;
+        font-size: 1.5em;
+    }
+
+
+
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact > div {
+        width: 100%;
+    }
+
+}
