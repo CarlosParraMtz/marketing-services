@@ -109,6 +109,13 @@ export default function Index() {
 
 
 
+            <section id="header" >
+                <img src="/header.jpg" alt="Momentum marketing" loading="lazy" />
+                <h2>No solo hacemos marketing. Hacemos negocios.</h2>
+            </section>
+
+
+
             <section id="about" >
                 <div className="about-container">
 
@@ -199,6 +206,7 @@ export default function Index() {
                     <div className="services-item">
                         <div className="s-img-container">
                             <img src="/software.jpg" alt="Desarrollo de software" loading='lazy' />
+                            <h4 className='h4-movil'>Desarrollo de software</h4>
                             <div className="s-services-list">
                                 <ul>
                                     <li>Software empresarial</li>
@@ -207,7 +215,7 @@ export default function Index() {
                                     <li>Aplicaciones web progresivas</li>
                                 </ul>
                             </div>
-                            <h4>Desarrollo de software</h4>
+                            <h4 className='h4-des'>Desarrollo de software</h4>
                         </div>
                     </div>
 
@@ -215,7 +223,10 @@ export default function Index() {
                     <div className="services-item">
                         <div className="s-img-container">
                             <img src="/webdev.jpg" alt="Desarrollo de software" loading='lazy' />
+                            <h4 className='h4-movil'>Diseño web</h4>
+
                             <div className="s-services-list">
+
                                 <ul>
                                     <li>Página web completa</li>
                                     <li>Diseño de UX / UI</li>
@@ -223,7 +234,7 @@ export default function Index() {
                                     <li>Landing pages</li>
                                 </ul>
                             </div>
-                            <h4>Diseño web</h4>
+                            <h4 className='h4-des'>Diseño web</h4>
                         </div>
                     </div>
 
@@ -231,6 +242,7 @@ export default function Index() {
                     <div className="services-item">
                         <div className="s-img-container">
                             <img src="/marketing.jpg" alt="Desarrollo de software" loading='lazy' />
+                            <h4 className='h4-movil'>Marketing digital</h4>
                             <div className="s-services-list">
                                 <ul>
                                     <li>Optimización SEO</li>
@@ -240,7 +252,7 @@ export default function Index() {
                                     <li>Anuncios web</li>
                                 </ul>
                             </div>
-                            <h4>Marketing digital</h4>
+                            <h4 className='h4-des'>Marketing digital</h4>
                         </div>
                     </div>
 
