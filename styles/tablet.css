@@ -1,5 +1,5 @@
-@media (max-width:600px) {
-
+@media(max-width:601px){
+    
     h1 {
         font-size: 3.5em;
     }
@@ -72,6 +72,12 @@
     }
 
 
+
+
+
+
+
+
     #contact {
         flex-direction: column;
     }
@@ -79,12 +85,9 @@
     #contact > div {
         width: 100%;
     }
-
 }
 
-
-@media (max-width:1200px) {
-    
+@media (max-width:750px){
     #services {
         padding-bottom: 10px;
     }
@@ -93,9 +96,6 @@
         color: #8B3A62;
     }
 
-    .about-left {
-        padding: 15px;
-    }
     
     .services-container {
         width: 100%;
@@ -107,15 +107,6 @@
 
     .services-item {
         width: 100%;
-    }
-
-
-    .s-img-container img {
-        height: 250px;
-        width: 100%;
-        object-fit: cover;
-        margin-bottom: 0;
-        background: green;
     }
 
 
