@@ -107,6 +107,7 @@
 
     .services-item {
         width: 100%;
+        background: linear-gradient(0deg, rgba(90,42,127,1) 0%, rgba(139,58,98,1) 100%);
     }
 
 
