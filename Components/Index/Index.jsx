@@ -109,9 +109,21 @@ export default function Index() {
 
 
 
-            <section id="header" >
+            <section  >
+            <div id="header">
                 <img src="/header.jpg" alt="Momentum marketing" loading="lazy" />
-                <h2>No solo hacemos marketing. Hacemos negocios.</h2>
+                <h2>¿Quienes somos?</h2>
+                </div>
+
+                <div className="header-texto">
+                    <p>
+                        Somos una empresa de marketing digital, enfocada en el desarrollo
+                        web del negocio. Sabemos que una de las partes más esenciales de
+                        todo negocio en línea es su espacio en internet. Por esta razón
+                        ponemos todo nuestro empeño por entregar sitios web espectaculares
+                        que lleven a tu negocio hacia la cima.
+                    </p>
+                </div>
             </section>
 
 
@@ -123,40 +135,31 @@ export default function Index() {
 
                         <div className="data-container">
                             <span>¿Por qué nosotros?</span>
-                            <h3>Entregamos diseños que llevan a resultados, con un toque personalizado</h3>
+                            <h3>No solo entregamos un proyecto. Entregamos resultados</h3>
                         </div>
 
 
                         <div className="data-container">
-                            <span>Diseños personalizados</span>
-                            <h3>Un sitio web que puedes considerar completamente tuyo</h3>
+                            <span>Tu negocio es prioridad</span>
+                            <h3>Lo más importante para nosotros es que tu negocio crezca</h3>
                         </div>
 
                         <div className="data-container">
                             <span>Confiabilidad</span>
                             <h3>No desapareceremos cuando el trabajo esté terminado</h3>
                             <p>
-                                El desarrollo web necesita seguimiento. No nos vas a descubrir
-                                tratando de huir en el momento en el que el proyecto esté terminado
+                                El marketing digital necesita seguimiento. No nos vas a descubrir
+                                tratando de huir en el momento en el que el proyecto esté terminado.
                             </p>
                         </div>
 
-                        <div className="data-container">
-                            <span>Calidad</span>
-                            <h3>Sitios web que son sencillos de entender</h3>
-                            <p>
-                                Desarrollamos nuestros proyectos de forma que sean fáciles
-                                de entender para cualquier desarrollador. Así que si un día
-                                necesitas migrar tu proyecto con alguien más, podrás encontrar
-                                fácilmente quien te ayude.
-                            </p>
-                        </div>
 
                         <div className="data-container">
                             <span>Garantía de calidad</span>
                             <h3>¡Compruébalo sin riesgos!</h3>
                             <p>
-                                Si no estás contento con el resultado, te reembolsaremos
+                                Si no estás contento con el resultado desde el
+                                inicio del proyecto, te reembolsaremos
                                 el anticipo que hayas dado, sin hacer preguntas.
                             </p>
                             <br />

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "firebase": "^9.17.2",
     "framer": "^2.3.0",
     "motion": "^10.15.5",
     "next": "13.1.6",

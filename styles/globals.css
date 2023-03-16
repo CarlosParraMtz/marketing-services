@@ -177,6 +177,15 @@ button:hover {
 }
 
 
+.header-texto {
+  background: #5A2A7F;
+  padding: 100px;
+}
+
+.header-texto p {
+  font-size: 2em;
+  max-width: 600px;
+}
 
 
 
@@ -210,6 +219,8 @@ button:hover {
   font-weight: bold;
   color: #8B3A62;
   font-size: 1.5em;
+  border-bottom: solid 2px #5A2A7F;
+  padding-bottom: 5px;
 }
 
 .data-container h3 {
