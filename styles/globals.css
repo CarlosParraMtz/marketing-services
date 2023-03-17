@@ -150,41 +150,44 @@ button:hover {
 
 
 
-
-
-
-#header {
-  width: 100%;
-  position: relative;
+#whoami {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background: #8B3A62;
 }
 
-#header img {
+
+.header-img {
+  width: 50%;
+}
+
+.header-img img {
   width: 100%;
-  max-height: 300px;
+  height: 100%;
   object-fit: cover;
-}
-
-#header h2 {
-  position: absolute;
-  top: 40%;
-  color: #fff;
-  text-align: center;
-  font-family: 'Quicksand', sans-serif;
-  text-shadow: 2px 2px 4px black;
 }
 
 
 .header-texto {
-  background: #5A2A7F;
-  padding: 100px;
+  width: 50%;
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-self: center;
 }
+
+.header-texto h2 {
+  color: #fff;
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
 
 .header-texto p {
   font-size: 2em;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 

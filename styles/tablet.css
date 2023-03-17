@@ -1,4 +1,4 @@
-@media(max-width:601px){
+@media(max-width:801px){
     
     h1 {
         font-size: 3.5em;
@@ -9,8 +9,26 @@
     }
 
 
-    #header h2 {
-        top:25%;
+    #whoami {
+        flex-direction: column;
+    }
+
+    .header-img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .header-texto {
+        width: 100%;
+        padding: 25px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .header-texto p {
+        font-size: 1.5em;
+        text-align: justify;
+        hyphens: auto;
     }
 
     .btn-container {

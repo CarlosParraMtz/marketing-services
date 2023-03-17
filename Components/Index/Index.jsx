@@ -109,17 +109,19 @@ export default function Index() {
 
 
 
-            <section  >
-            <div id="header">
-                <img src="/header.jpg" alt="Momentum marketing" loading="lazy" />
-                <h2>¿Quienes somos?</h2>
+            <section id="whoami" >
+                <div className="header-img">
+                    <img src="/header.jpg" alt="Momentum marketing" loading="lazy" />
                 </div>
 
                 <div className="header-texto">
+                    <h2>¿Quienes somos?</h2>
+                    <div className="divider-white"></div>
+
                     <p>
                         Somos una empresa de marketing digital, enfocada en el desarrollo
                         web del negocio. Sabemos que una de las partes más esenciales de
-                        todo negocio en línea es su espacio en internet. Por esta razón
+                        todo negocio en línea es su visibilidad en internet. Por esta razón
                         ponemos todo nuestro empeño por entregar sitios web espectaculares
                         que lleven a tu negocio hacia la cima.
                     </p>
@@ -276,9 +278,9 @@ export default function Index() {
                 </div>
                 <div className="contact-mitad mitad-texto">
                     <h2>Tú tienes las mejores ideas.</h2>
-                    <h3>Nosotros las convertimos en realidades.</h3>
+                    <h3>Nosotros las llevamos a la cima.</h3>
                     <div className="divider-white"></div>
-                    <h4>Habla y cotiza con nosotros sin costo:</h4>
+                    <h4>Háblanos y cotiza sin costo:</h4>
 
                     <form>
                         <label htmlFor='form-nombre' >Nombre:</label>
