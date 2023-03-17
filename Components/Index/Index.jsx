@@ -4,6 +4,7 @@ import Header from "./elements/Header";
 import About from "./elements/About";
 import Services from "./elements/Services";
 import Contact from "./elements/Contact";
+import Footer from "./elements/Footer";
 
 export default function Index() {
     return (
@@ -13,6 +14,7 @@ export default function Index() {
             <About />
             <Services />
             <Contact />
+            <Footer />
         </>
     )
 }
