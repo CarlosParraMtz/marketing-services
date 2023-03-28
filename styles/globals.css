@@ -119,7 +119,7 @@ section {
   justify-content: space-between;
 }
 
-button {
+.btn-base {
 
   padding: 15px 20px;
   width: 220px;
@@ -141,6 +141,11 @@ button:hover {
 .btn-blue {
   background: #5A2A7F;
   color: #fff;
+}
+
+.btn-large {
+  width: 100%;
+  max-width: 350px;
 }
 
 .btn-blue:hover {
@@ -419,7 +424,9 @@ button:hover {
 
 .mitad-texto {
   padding: 30px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .mitad-texto h2 {
@@ -463,9 +470,7 @@ input:focus, textarea:focus {
 
 }
 
-input:invalid {
-  border: solid 2px red;
-}
+
 
 
 footer {
@@ -515,4 +520,10 @@ footer a {
 
 .service-card-azul {
   background-color: #6C8CA0;
+}
+
+
+.dialog-title {
+  width: fit-content;
+  margin-left: auto;
 }

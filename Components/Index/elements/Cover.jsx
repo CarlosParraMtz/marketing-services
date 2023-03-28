@@ -82,13 +82,13 @@ export default function Cover() {
                     variants={variantesTitle} transition={{ delay: 1.5, duration: 1 }}
                 >
                     <a href='#contact' >
-                        <button className="btn-blue" >
+                        <button className="btn-base btn-blue" >
                             🏁 Iniciar proyecto
                         </button>
                     </a>
 
                     <a href="#whoami" className='mt-2' >
-                        <button>
+                        <button className="btn-base" >
                             Saber más... 👇
                         </button>
                     </a>

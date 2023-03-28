@@ -40,7 +40,7 @@ export default function About() {
                         <br />
                         <br />
                         <a href="#contact">
-                            <button className="btn-blue" >
+                            <button className="btn-base btn-blue" >
                                 🏁 Iniciar proyecto
                             </button>
                         </a>

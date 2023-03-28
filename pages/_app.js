@@ -36,11 +36,8 @@ export default function App({ Component, pageProps }) {
 
 			</Head>
 
-			<AnimatePresence exitBeforeEnter >
-				<motion.div
-					key={router.route}
-
-				>
+			<AnimatePresence mode="wait" >
+				<motion.div key={router.route} >
 					<Component {...pageProps} />
 				</motion.div>
 			</AnimatePresence>
