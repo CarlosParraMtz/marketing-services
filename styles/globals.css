@@ -447,6 +447,11 @@ button:hover {
 }
 
 
+.dialog-title {
+  width: fit-content;
+  margin-left: auto;
+}
+
 
 
 form {
@@ -473,6 +478,95 @@ input:focus, textarea:focus {
 
 
 
+
+.col {
+  display: flex;
+  margin: 0 10px;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * La nueva sección de servicios */
+
+#services div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.service-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.service-card-content {
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-card-rosa {
+  background-color: #8B3A62;
+}
+
+.service-card-purpura {
+  background-color: #5A2A7F;
+} 
+
+.service-card-azul {
+  background-color: #6C8CA0;
+}
+
+
+.icon-services {
+  width:70px;
+  margin-bottom: 20px;
+}
+
+.service-card-content p {
+  font-size: 1.6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
   background: #FFFFFF;
   width: 100%;
@@ -485,45 +579,4 @@ footer {
 
 footer a {
   color: #5A2A7F;
-}
-
-
-.col {
-  display: flex;
-  margin: 0 10px;
-  flex-direction: column;
-}
-
-
-.service-card {
-  display: flex;
-  padding: 10px;
-  width: 250px;
-  height: 250px;
-}
-
-.service-card-content {
-  padding: 20px;
-  width: 100%;
-  max-width: 300px;
-  height: 100%;
-  border-radius: 10px;
-}
-
-.service-card-rosa {
-  background-color: #8B3A62;
-}
-
-.service-card-purpura {
-  background-color: #5A2A7F;
-}
-
-.service-card-azul {
-  background-color: #6C8CA0;
-}
-
-
-.dialog-title {
-  width: fit-content;
-  margin-left: auto;
 }
