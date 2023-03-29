@@ -45,7 +45,7 @@ export default function Contact() {
                 <Dialog open={dialogFormulario} onClose={cerrarDialogFormulario} >
                     <DialogTitle sx={{background:"#5A2A7F"}} >
                         <div className="dialog-title">
-                            <IconButton size="small" sx={{ borderRadius: "5px" }} >
+                            <IconButton size="small" sx={{ borderRadius: "5px" }} onClick={cerrarDialogFormulario}>
                                 <CloseIcon fontSize="small" sx={{ml:"auto", color:"white"}} />
                             </IconButton>
                         </div>
@@ -53,14 +53,14 @@ export default function Contact() {
                     <DialogContent>
                         <form>
                             <label htmlFor="form-nombre">Nombre:</label>
-                            <input type="text" required id="form-nombre" />
+                            <input type="text" required id="form-nombre" value={nombre} onChange={(e) => setNombre(e.target.value)}/>
                             <br />
                             <br />
                             <label htmlFor="form-email">Email:</label>
-                            <input type="email" required id="form-email" />
+                            <input type="email" required id="form-email" value={email} onChange={(e) => setEmail(e.target.value)} />
                             <br />
                             <br />
-                            <label htmlFor="form-descripcion">
+                            <label htmlFor="form-descripcion" value={descripcion} onChange={(e) => setDescripcion(e.target.value)}>
                                 Háblanos un poco sobre tu proyecto. Si lo deseas, también puedes
                                 incluir un enlace de telegram, o de whatsapp:
                             </label>
