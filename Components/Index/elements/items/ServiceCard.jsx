@@ -10,7 +10,14 @@ export default function ServiceCard({ color = "azul" }) {
     return (
         <div className={`service-card`}>
             <div className={`service-card-content service-card-${color}`}>
-                ServiceCard
+                <img
+                    src="/icons/multimedia.svg"
+                    alt="multimedia"
+                    className='icon-services'
+                />
+                <p>
+                    Edición de video
+                </p>
             </div>
         </div>
     )

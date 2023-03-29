@@ -9,6 +9,11 @@ export default function ServicesNew() {
 
             <div className="container">
                 <ServiceCard />
+                <ServiceCard color="rosa" />
+                <ServiceCard color="purpura" />
+                <ServiceCard color="purpura" />
+                <ServiceCard />
+                <ServiceCard color="rosa" />
             </div>
         </section>
     )
